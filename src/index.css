@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    background: white; /* ya jo bhi color chahiye */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+  }
+  
+  .hero {
+    margin-top: -10px; /* Header ke neeche space dene ke liye */
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('/path-to-image.jpg') no-repeat center center/cover;
+  }
+  
