@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import houseImage from "../assets/images/Card.jpeg"; // 🏠 Apni image ka path check karein
+import houseImage from "../assets/images/card.jpeg"; 
 
 const Equity = () => {
   return (
