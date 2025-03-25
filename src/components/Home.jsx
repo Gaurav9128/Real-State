@@ -116,8 +116,8 @@ const Home = () => {
         }}
       >
         <Container style={{ textAlign: "center", marginLeft: "170px", marginTop: "50px" }}>
-          <h1>Property For Sale Overseas</h1>
-          <p>In Total 165,677 Listings</p>
+          <h1>Helping you find right <br/> property across globe</h1>
+          <p>Help with property selection · Audit and due diligence · Transaction support</p>
         </Container>
 
 
