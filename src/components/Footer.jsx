@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./Footer.css";
+import ballonImage from "../assets/images/ballon.png"; // Adjust the path based on your folder structure
 
 const Footer = () => {
   const categories = [
@@ -39,7 +40,7 @@ const Footer = () => {
       </div>
 
       {/* Subscription Section */}
-      <div className="subscription-section mt-4" style={{ backgroundImage: "url(/src/assets/images/ballon.png)" }}>
+      <div className="subscription-section mt-4" style={{ backgroundImage: `url(${ballonImage})`, backgroundSize: "cover", backgroundPosition: "center" }}>
         <div className="content">
           <h2>Lorem ipsum dolor sit amet,</h2>
           <p>consectetur adipiscing elit</p>
